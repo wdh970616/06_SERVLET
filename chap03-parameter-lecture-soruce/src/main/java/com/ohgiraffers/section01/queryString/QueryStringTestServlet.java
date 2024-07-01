@@ -12,6 +12,7 @@ import java.util.List;
 public class QueryStringTestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         /*
          * HttpServlet 클래스의 service method는 요청 방식에 따라
          * GET 요청에 대해서는 doGet() 메소드를 호출하고 request, responce를 전달한다.
@@ -39,10 +40,5 @@ public class QueryStringTestServlet extends HttpServlet {
         for (String hobby : hobbies) {
             System.out.println(hobby);
         }
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
     }
 }
