@@ -33,7 +33,12 @@ public class QueryStringTestServlet extends HttpServlet {
         String national = request.getParameter("national");
         System.out.println("국적 : " + national);
 
-         
+        System.out.println("취미 : ");
+        String[] hobbies = request.getParameterValues("hobbies");
+
+        for (String hobby : hobbies) {
+            System.out.println(hobby);
+        }
     }
 
     @Override

@@ -38,5 +38,10 @@
 
     <input type="submit" value="GET 요청">
 </form>
+
+<h4>a태그의 href 속성에 파라미터를 쿼리스트링 형태로 작성하여 get 방식 요청</h4>
+<a href="http://localhost:8080/querystring?name=위성민&age=20&birthday=2004-07-01&gender=M&national=ko&hobbies=movie&hobbies=music&hobbies=sleep">
+    쿼리스트링을 이용한 값 전달
+</a>
 </body>
 </html>
