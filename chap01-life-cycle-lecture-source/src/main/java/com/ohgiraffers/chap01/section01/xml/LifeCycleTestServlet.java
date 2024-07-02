@@ -24,7 +24,7 @@ public class LifeCycleTestServlet extends HttpServlet {
     public void init(ServletConfig config) throws ServletException {
         System.out.println("xml 매핑 init() 메소드 호출 " + initCount++);
     }
-    
+
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         /*
