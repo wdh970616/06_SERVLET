@@ -14,6 +14,9 @@
     <li>
         <a href="headers">응답 헤더 확인하기</a>
     </li>
+    <li>
+        <a href="status">응답 상태코드 확인하기</a>
+    </li>
 </ul>
 </body>
 </html>
