@@ -13,7 +13,7 @@ public class ExceptionHandlerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        // getAttributenames( : request객체가 가지고있는 속성의 이름을 모두 가진다.
+        // getAttributeNames() : request객체가 가지고있는 속성의 이름을 모두 가진다.
         Enumeration<String> attrNames = request.getAttributeNames();
         while (attrNames.hasMoreElements()) {
             System.out.println(attrNames.nextElement());
