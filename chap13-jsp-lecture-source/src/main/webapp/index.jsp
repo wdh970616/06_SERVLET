@@ -2,12 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>JSP</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+<h1>JSP</h1>
+<ul>
+    <li>
+        <a href="jsp/1_simpleJspStates.jsp">jsp 기록 문법</a>
+    </li>
+</ul>
 </body>
 </html>
